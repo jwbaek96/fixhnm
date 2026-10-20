@@ -219,15 +219,18 @@
     <div class="hero">
       <div class="hero-heading">
         <p class="intro">(주)와이피피 웹사이트 수정 작업에 대한 예비 견적 안내입니다.</p>
-        <div class="date">재산정일<strong><time datetime="2026-10-20">2026. 10. 20.</time></strong></div>
+        <div class="date">
+          <!-- 재산정일 -->
+          <strong><time datetime="2026-10-20">2026. 10. 20.</time></strong>
+        </div>
       </div>
     </div>
 
     <div class="overview" aria-label="견적 핵심 요약">
       <div class="metric featured">
         <p class="metric-label">총 견적</p>
-        <p class="metric-value">165.2<span>만 원</span></p>
-        <p class="metric-description">공통 1,100,000원 + 페이지별 552,000원</p>
+        <p class="metric-value">135.5<span>만 원</span></p>
+        <p class="metric-description">공통 803,000원 + 페이지별 552,000원</p>
         <div class="metric-sub"><span>부가가치세 포함</span><span>예비 견적 · 확정 금액 아님</span></div>
       </div>
       <!--
@@ -250,12 +253,12 @@
           <caption>여러 페이지에 함께 적용하는 공통 작업</caption>
           <thead><tr><th scope="col">작업 항목</th><th scope="col">주요 변경 내용</th><!-- <th scope="col">예상 시간</th> --><th scope="col" class="price">기준 견적</th></tr></thead>
           <tbody>
-            <tr><td><a href="#common-header">헤더·메가 메뉴 ↗</a></td><td class="scope">2단 헤더, 대메뉴 7개 → 4개, 소메뉴 이동 및 메가 메뉴 적용</td><!-- <td class="hours">8시간</td> --><td class="price"><strong>660,000원</strong><small>기존 고정 견적 적용</small></td></tr>
-            <tr><td><a href="#common-banner">페이지 상단 배너 ↗</a></td><td class="scope">페이지 제목·설명을 담는 배경 박스 디자인 통일</td><!-- <td class="hours">4–8시간</td> --><td class="price"><strong>110,000원</strong><small>HTML 편집 1건</small></td></tr>
+            <tr><td><a href="#common-header">헤더·메가 메뉴 ↗</a></td><td class="scope">2단 헤더, 대메뉴 7개 → 4개, 소메뉴 이동 및 메가 메뉴 적용</td><!-- <td class="hours">8시간(과거 추정, 재확인 필요)</td> --><td class="price"><strong>330,000원</strong><small>헤더·메뉴 배치 110,000원 + 메가 메뉴 220,000원</small></td></tr>
+            <tr><td><a href="#common-banner">페이지 상단 배너 ↗</a></td><td class="scope">공통 배너 UI 구성 및 6페이지 배경 이미지·배치·가독성 조정</td><!-- <td class="hours">4–8시간</td> --><td class="price"><strong>143,000원</strong><small>공통 UI 110,000원 + 6페이지 × 5,500원</small></td></tr>
             <tr><td><a href="#common-scroll">스크롤·대표 이미지 ↗</a></td><td class="scope">헤더 고정 해제, 섹션 메뉴 sticky, 본문 대표 이미지 영역 마련</td><!-- <td class="hours">11–21시간(과거 추정, 재확인 필요)</td> --><td class="price"><strong>330,000원</strong><small>스크롤 동작 220,000원 + 이미지 영역 110,000원</small></td></tr>
-            <tr><td><a href="#common-title">섹션 제목·설명 ↗</a></td><td class="scope">영문 라벨·제목·설명의 글꼴, 정렬, 색상 및 간격 통일</td><!-- <td class="hours">4–8시간</td> --><td class="price"><strong>110,000원</strong><small>HTML 편집 1건</small><small>참고 단가 · 견적 미반영(청구 없음)</small></td></tr>
+            <tr><td><a href="#common-title">섹션 제목·설명 ↗</a></td><td class="scope">공통 텍스트 스타일 정리 및 개별 컨텐츠 페이지의 섹션별 정렬·간격 조정</td><!-- <td class="hours">4–8시간</td> --><td class="price"><strong>110,000원</strong><small>공통 스타일 및 컨텐츠 페이지 개별 적용</small><small>참고 단가 · 견적 미반영(청구 없음)</small></td></tr>
           </tbody>
-          <tfoot><tr><td colspan="2">공통 작업 소계(견적 미반영 1개 제외)</td><!-- <td class="hours">27–45시간(과거 추정 포함, 재확인 필요)</td> --><td class="price">1,100,000원</td></tr></tfoot>
+          <tfoot><tr><td colspan="2">공통 작업 소계(견적 미반영 1개 제외)</td><!-- <td class="hours">27–45시간(과거 추정 포함, 재확인 필요)</td> --><td class="price">803,000원</td></tr></tfoot>
         </table>
       </div>
       <div class="table-wrap" tabindex="0" role="region" aria-label="페이지별 작업 견적 표, 좁은 화면에서는 좌우로 스크롤">
@@ -264,21 +267,24 @@
           <thead><tr><th scope="col">대상 페이지</th><th scope="col">주요 변경 내용</th><!-- <th scope="col">예상 시간</th> --><th scope="col" class="price">기준 견적</th></tr></thead>
           <tbody>
             <tr><td><a href="#page-main">홈페이지 · 메인 ↗</a></td><td class="scope">히어로, 회사소개, 사업분야, 아카데미 및 문의 영역 개편</td><!-- <td class="hours">17–28시간</td> --><td class="price"><strong>310,000원</strong><small>메인 디자인 변경 + HTML 편집 1건</small></td></tr>
-            <tr><td><a href="#page-popup">홈페이지 · 팝업 ↗</a></td><td class="scope">단일 팝업 중앙 정렬, Esc 키로 닫기</td><!-- <td class="hours">1–2시간</td> --><td class="price"><strong>132,000원</strong><small>기존 기준 견적 적용</small></td></tr>
+            <tr><td><a href="#page-popup">홈페이지 · 팝업 ↗</a></td><td class="scope">단일 팝업 중앙 정렬, Esc 키로 닫기</td><!-- <td class="hours">1–2시간</td> --><td class="price"><strong>132,000원</strong></td></tr>
             <tr><td><a href="#page-company">회사소개 · 기업현황 ↗</a></td><td class="scope">회사 정보, 인사말 및 연혁 콘텐츠 구성 개편</td><!-- <td class="hours">9–16시간</td> --><td class="price"><strong>110,000원</strong><small>HTML 편집 1건</small></td></tr>
             <tr><td><a href="#page-academy">(주)와이피피 아카데미 ↗</a></td><td class="scope">교육 소개, 통계, 비전, 사진, 연혁 및 장점 영역 개편</td><!-- <td class="hours">13–21시간</td> --><td class="price"><strong>110,000원</strong><small>HTML 편집 1건</small><small>참고 단가 · 견적 미반영(청구 없음)</small></td></tr>
+            <tr><td><a href="#page-directions">회사소개 · 오시는길 ↗</a></td><td class="scope">오시는길 정보 UI 간소화</td><td class="price"><strong>110,000원</strong><small>견적 미반영</small></td></tr>
           </tbody>
-          <tfoot><tr><td colspan="2">페이지별 작업 소계(견적 미반영 1개 제외)</td><!-- <td class="hours">40–67시간</td> --><td class="price">552,000원</td></tr></tfoot>
+          <tfoot><tr><td colspan="2">페이지별 작업 소계(견적 미반영 2개 제외)</td><!-- <td class="hours">40–67시간(오시는길 자체 수정 시간 미포함)</td> --><td class="price">552,000원</td></tr></tfoot>
         </table>
       </div>
-      <div class="total-row"><div><strong>공통 작업 + 페이지별 작업</strong><p>전체 8개 작업 항목 · 견적 반영 6개 / 미반영 2개<!-- · 과거 예상 작업시간 67–112시간, 재확인 필요 --></p></div><div class="total-price">1,652,000원<small>VAT 포함</small></div></div>
+      <div class="total-row"><div><strong>공통 작업 + 페이지별 작업</strong><p>전체 9개 작업 항목 · 견적 반영 6개 / 미반영 3개<!-- · 과거 예상 작업시간 67–112시간, 오시는길 자체 수정 시간 미포함, 재확인 필요 --></p></div><div class="total-price">1,355,000원<small>VAT 포함</small></div></div>
       <div class="detail-note">
         <strong>단가 적용 기준</strong>
-        <p>HTML 편집 3건 330,000원 + 메인 디자인 변경 200,000원 + 기존 헤더·메가 메뉴 660,000원 + 스크롤·대표 이미지 330,000원 + 팝업 기능 수정 132,000원으로 산정했습니다.</p>
+        <p>HTML 편집 3건 330,000원 + 배너 6페이지 적용비 33,000원 + 메인 디자인 변경 200,000원 + 헤더·메가 메뉴 330,000원 + 스크롤·대표 이미지 330,000원 + 팝업 기능 수정 132,000원으로 산정했습니다.</p>
         <p><strong>견적 미반영(청구 없음)</strong> 공통 섹션 제목·설명 영역과 (주)와이피피 아카데미 개편은 클라이언트 요청 외 자체 수정 사항입니다. 항목·작업 내용과 참고 단가 각 110,000원은 그대로 표시하되, 합계 220,000원은 소계·총액에 반영하지 않습니다.</p>
-        <p>HTML 편집은 공통 템플릿별 1건, 개별 페이지별 1건으로 묶은 가정이며, 섹션·카드·사진 개수만큼 곱하지 않습니다. 제공 이미지·문구 반영과 각 항목의 검수는 해당 비용에 포함합니다. 헤더·메가 메뉴와 팝업은 기존 견적을, 스크롤·대표 이미지는 공통 템플릿 기준 재산정 금액을 적용하며, 이 세 항목에 별도 HTML 편집비나 프로그램 수정비를 추가하지 않습니다.</p>
+        <p>회사소개 · 오시는길 정보 UI 간소화도 클라이언트 요청 외 자체 수정 사항으로 표시하며, 비용은 청구하지 않고 소계·총액에 반영하지 않습니다.</p>
+        <p>02번 배너와 04번 제목·설명은 공통 스타일을 바탕으로 하드코딩된 각 페이지에 개별 적용하는 작업입니다. 배너는 6페이지의 배경 이미지·배치·가독성을, 제목·설명은 개별 컨텐츠 페이지의 섹션별 정렬·간격을 조정합니다. 한 번의 공통 파일 수정으로 모두 반영되는 작업이나 페이지마다 새로운 디자인을 제작하는 작업과는 구분합니다. 02번은 공통 UI 110,000원과 6페이지 × 5,500원으로 총 143,000원이며, 04번은 개별 컨텐츠 페이지 적용을 포함해 청구하지 않습니다. 다른 공통 작업과 겹치는 적용·검수비는 중복 가산하지 않습니다.</p>
+        <p>개별 페이지 HTML 편집은 페이지별 1건으로 묶으며, 섹션·카드·사진 개수만큼 곱하지 않습니다. 제공 이미지·문구 반영과 각 항목의 검수는 해당 작업 범위에 포함합니다. 헤더·메가 메뉴는 기존 코드 재사용 기준, 스크롤·대표 이미지는 공통 템플릿 기준으로 산정하며, 팝업을 포함한 이 세 항목에 별도 HTML 편집비나 프로그램 수정비를 추가하지 않습니다.</p>
         <p>기존 페이지 개편과 팝업 동작 수정이므로 페이지 추가·신규 팝업 제작 단가는 적용하지 않습니다. 메인 디자인 비용을 중복 산정하지 않으며, 이미지·배너·약도·CI 신규 제작 등 기존 범위 밖의 작업은 포함하지 않습니다.</p>
-        <p>메인 디자인 변경과 HTML 구현을 별도 범위로 산정했습니다. 디자인 변경비에 HTML 구현까지 포함하는 것으로 합의하면 HTML 편집 1건을 제외하여 총액은 <strong>1,542,000원(VAT 포함)</strong>입니다.</p>
+        <p>메인 디자인 변경 200,000원과 HTML 구현 110,000원은 별도 작업으로 각각 산정했으며, 전체 견적에 모두 포함했습니다.</p>
       </div>
     </section>
 
@@ -290,31 +296,32 @@
       <div class="detail-group">
         <h3 class="group-title">공통 작업 / 4개 항목</h3>
         <details id="common-header">
-          <summary><span class="detail-number">01</span><span class="detail-name">웹사이트 메뉴 구조 및 헤더 개편</span><span class="detail-price"><!-- <small>8시간</small> -->660,000원</span></summary>
+          <summary><span class="detail-number">01</span><span class="detail-name">웹사이트 메뉴 구조 및 헤더 개편</span><span class="detail-price"><!-- <small>8시간(과거 추정, 재확인 필요)</small> -->330,000원</span></summary>
           <div class="detail-body">
             <ul><li>페이지 헤더를 1단에서 2단 구조로 변경합니다.</li><li>기존 대메뉴 7개를 4개로 재구성하고, 메뉴 3개는 상단 소메뉴로 이동합니다.</li><li>기존 드롭다운 메뉴를 메가 메뉴 방식으로 변경합니다.</li><li>기능 테스트, 오류 수정 및 안정화 작업을 포함합니다.</li></ul>
-            <p class="detail-note"><strong>산정 기준</strong> <!-- 시간당 7만 원 적용 시 56만 원, 8만 원 적용 시 64만 원입니다. -->기존 작업 묶음 전체의 고정 견적을 적용한 660,000원(VAT 포함)입니다. 별도 HTML 편집비나 프로그램 수정비를 추가하지 않습니다. 기존에 구현된 헤더·메가 메뉴는 중복 청구하지 않으며, 실제 요청된 변경·테스트 범위에 한해 적용합니다.</p>
+            <p class="detail-note"><strong>산정 기준</strong> <!-- 과거 시간당 7만 원 적용 시 56만 원, 8만 원 적용 시 64만 원으로 추정했으나 이번 정액 견적에는 적용하지 않습니다. -->헤더 구조·메뉴 배치 수정 110,000원 + 메가 메뉴 구성·동작 수정 220,000원 = 330,000원(VAT 포함)입니다. 기존 메뉴 코드를 활용하며, PC·모바일 배치와 메뉴 열기·닫기 검수 및 관련 오류 수정을 포함합니다. 이미 완료된 부분은 중복 청구하지 않고 실제 요청된 변경·테스트 범위에 한해 적용합니다.</p>
+            <p class="detail-note"><strong>범위 구분</strong> 메뉴 관리 기능이나 모바일 내비게이션 신규 개발은 포함하지 않습니다. 스크롤 고정·sticky 동작은 03번에 포함하며 중복 산정하지 않습니다. 별도 HTML 편집비나 프로그램 수정비를 추가하지 않습니다.</p>
           </div>
         </details>
         <details id="common-banner">
-          <summary><span class="detail-number">02</span><span class="detail-name">페이지 상단 배너 디자인</span><span class="detail-price"><!-- <small>4–8시간</small> -->110,000원</span></summary>
-          <div class="detail-body"><ul><li>페이지 제목·설명을 담는 상단 배너의 색상, 글자 크기, 간격 및 박스 디자인을 통일합니다.</li><li>공통 스타일을 적용하고, 각 페이지의 제목·설명 길이에 따른 화면 배치를 확인합니다.</li></ul><p class="detail-note"><strong>제외 항목</strong> 배너 이미지 제작 및 페이지별 문구 작성은 포함하지 않습니다.</p></div>
+          <summary><span class="detail-number">02</span><span class="detail-name">페이지 상단 배너 디자인 및 6페이지 적용</span><span class="detail-price"><!-- <small>4–8시간</small> -->143,000원</span></summary>
+          <div class="detail-body"><ul><li>페이지 제목·설명을 담는 상단 배너의 공통 UI를 구성하고 색상·글자 크기·간격·박스 디자인을 정리합니다.</li><li>하드코딩된 6페이지에 공통 UI를 개별 적용하고, 페이지마다 다른 배경 이미지를 반영합니다.</li><li>각 배경 이미지에 맞춰 표시 위치·배치를 조정하고, 제목·설명 길이에 따른 가독성과 PC·모바일 화면 배치를 확인합니다.</li></ul><p class="detail-note"><strong>산정 기준</strong> 공통 UI 구성 110,000원 + 6페이지 × 5,500원(개별 적용·배치 확인) = 143,000원(VAT 포함)입니다. 다른 공통 작업과 겹치는 적용·검수비는 중복 가산하지 않습니다.</p><p class="detail-note"><strong>제외 항목</strong> 배너 이미지 제작 및 페이지별 문구 작성은 포함하지 않습니다.</p></div>
         </details>
         <details id="common-scroll">
           <summary><span class="detail-number">03</span><span class="detail-name">헤더 스크롤 동작 및 본문 대표 이미지</span><span class="detail-price"><!-- <small>11–21시간(과거 추정, 재확인 필요)</small> -->330,000원</span></summary>
           <div class="detail-body"><ul><li>2단 헤더는 스크롤 시 화면에 고정되지 않도록 변경합니다.</li><li>페이지 섹션 메뉴만 스크롤에 따라 상단에 붙도록 sticky 동작을 적용하고, 고정 위치·겹침·앵커 이동을 확인합니다.</li><li>본문 상단에 대표 이미지 공통 영역을 마련하고 제공된 이미지를 적용합니다.</li><li>PC·모바일 화면에서 이미지 배치와 스크롤 동작을 확인하고 관련 오류를 수정합니다.</li></ul><p class="detail-note"><strong>산정 기준</strong> 스크롤 동작 수정 220,000원 + 대표 이미지 공통 영역 구성 110,000원 = 330,000원(VAT 포함)입니다. 공통 템플릿을 수정해 여러 페이지에 동일하게 적용하는 기준이며, 관련 검수를 포함합니다. 별도 HTML 편집비나 프로그램 수정비를 추가하지 않습니다.</p><p class="detail-note"><strong>확인사항</strong> 홈을 제외한 모든 페이지</p></div>
         </details>
         <details id="common-title">
-          <summary><span class="detail-number">04</span><span class="detail-name">공통 섹션 제목·설명 영역 · 견적 미반영</span><span class="detail-price"><!-- <small>4–8시간</small> -->110,000원</span></summary>
+          <summary><span class="detail-number">04</span><span class="detail-name">공통 섹션 제목·설명 영역 · 페이지 컨텐츠별 별도 적용 · 견적 미반영</span><span class="detail-price"><!-- <small>4–8시간</small> -->110,000원</span></summary>
           <p class="detail-note"><strong>견적 미반영(청구 없음)</strong> 클라이언트 요청 외 자체 수정 사항입니다. 표시 금액은 참고 단가이며, 소계·총액에 반영하지 않습니다.</p>
-          <div class="detail-body"><ul><li>‘COMPANY INFO’ 같은 영문 라벨, ‘회사 개요’ 같은 제목, 제목 아래 설명문 블록을 정리합니다. 페이지 최상단의 큰 배너와는 별도인 본문 영역입니다.</li><li>여러 페이지에서 반복되는 블록의 글꼴 크기·색상·굵기·줄 간격·여백을 통일합니다.</li><li>섹션 성격에 따라 좌측 또는 중앙 정렬을 적용합니다.</li><li>모바일 화면에서 제목과 설명이 잘 보이는지 확인합니다.</li></ul><p class="detail-note"><strong>제외 항목</strong> 문구 작성·번역, 페이지마다 완전히 다른 개별 디자인은 별도 작업입니다.</p></div>
+          <div class="detail-body"><ul><li>‘COMPANY INFO’ 같은 영문 라벨, ‘회사 개요’ 같은 제목, 제목 아래 설명문 블록의 공통 스타일을 정리합니다. 페이지 최상단의 큰 배너와는 별도인 본문 영역입니다.</li><li>공통 글꼴 크기·색상·굵기·줄 간격을 바탕으로 하드코딩된 각 페이지·섹션에 개별 적용합니다.</li><li>각 페이지·섹션의 구성에 맞춰 중앙 정렬 또는 기본 정렬을 적용하고 간격·여백을 조정합니다.</li><li>모바일 화면에서 제목과 설명의 정렬·가독성을 확인합니다.</li></ul><p class="detail-note"><strong>제외 항목</strong> 문구 작성·번역, 페이지마다 완전히 다른 개별 디자인은 별도 작업입니다.</p></div>
         </details>
       </div>
       <div class="detail-group">
-        <h3 class="group-title">페이지별 작업 / 4개 항목</h3>
+        <h3 class="group-title">페이지별 작업 / 5개 항목</h3>
         <details id="page-main">
           <summary><span class="detail-number">05</span><span class="detail-name">홈페이지 · 메인</span><span class="detail-price"><!-- <small>17–28시간</small> -->310,000원</span></summary>
-          <div class="detail-body"><ul><li>메인 히어로를 현장 인물 사진·중앙 문구에서 건축물 사진·좌측 문구 구성으로 변경합니다.</li><li>회사소개 영역의 제목·설명·버튼 배치를 조정합니다.</li><li>사업분야를 카테고리 묶음에서 8개 카드 그리드로 변경합니다.</li><li>아카데미 소개를 두 개의 가로형 과정 카드로 재구성합니다.</li><li>문의 영역을 소개 문구, 연락처 카드, 바로가기 버튼이 있는 디자인으로 변경합니다.</li></ul><p class="detail-note"><strong>산정 기준</strong> 메인 디자인 변경 200,000원 + HTML 편집 1건 110,000원으로, 위 메인 영역 전체를 1페이지로 묶었습니다.</p><p class="detail-note"><strong>중복 산정 없음</strong> 팝업 기능 수정은 아래 별도 항목(132,000원, VAT 포함)입니다. 공통 페이지 배너·섹션 제목은 공통 작업에 포함합니다. 푸터는 비교 이미지에서 큰 구조 변화가 확인되지 않아 별도 작업으로 산정하지 않았습니다.</p></div>
+          <div class="detail-body"><ul><li>메인 히어로 섹션의 기존 동영상은 유지하고, 섹션 박스(동영상) 디자인을 변경합니다.</li><li>회사소개 영역의 제목·설명·버튼 배치를 조정합니다.</li><li>사업분야를 카테고리 묶음에서 8개 카드 그리드로 변경하고, 카드 이미지를 교체하며 레이아웃·텍스트 정렬·폰트 크기 등을 조정합니다.</li><li>아카데미 소개를 두 개의 가로형 과정 카드로 재구성합니다.</li><li>문의 영역을 소개 문구, 연락처 카드, 바로가기 버튼이 있는 디자인으로 변경합니다.</li></ul><p class="detail-note"><strong>산정 기준</strong> 메인 디자인 변경 200,000원 + HTML 편집 1건 110,000원으로, 위 메인 영역 전체를 1페이지로 묶었습니다.</p><p class="detail-note"><strong>중복 산정 없음</strong> 팝업 기능 수정은 아래 별도 항목(132,000원, VAT 포함)입니다. 공통 페이지 배너·섹션 제목은 공통 작업에 포함합니다. 푸터는 비교 이미지에서 큰 구조 변화가 확인되지 않아 별도 작업으로 산정하지 않았습니다.</p></div>
         </details>
         <details id="page-popup">
           <summary><span class="detail-number">06</span><span class="detail-name">홈페이지 · 팝업 기능 수정</span><span class="detail-price"><!-- <small>1–2시간</small> -->132,000원</span></summary>
@@ -322,10 +329,17 @@
         </details>
         <details id="page-company">
           <summary><span class="detail-number">07</span><span class="detail-name">회사소개 · 기업현황</span><span class="detail-price"><!-- <small>9–16시간</small> -->110,000원</span></summary>
-          <div class="detail-body"><ul><li>회사 소개와 회사 정보를 이미지·요약 정보·상세 주소가 구분되도록 재배치합니다.</li><li>인사말을 대표자 사진과 인용형 제목이 있는 좌우 구성으로 변경합니다.</li></ul><p class="detail-note"><strong>범위 구분</strong> 공통 배너·섹션 제목·대표 이미지 공통 영역은 공통 작업에 포함합니다. 사진 촬영·보정, 연혁 문구 작성·검수 및 번역은 포함하지 않습니다.</p></div>
+          <div class="detail-body"><ul><li>회사 소개와 회사 정보를 이미지·요약 정보·상세 주소가 구분되도록 재배치합니다.</li><li>인사말을 대표자 사진과 인용형 제목이 있는 좌우 구성으로 변경합니다.</li></ul><p class="detail-note"><strong>범위 구분</strong> 공통 배너·섹션 제목·대표 이미지 공통 영역은 공통 작업에 포함합니다. 사진, 연혁 문구 작성·검수 및 번역은 포함하지 않습니다.</p></div>
+        </details>
+        <details id="page-directions">
+          <summary><span class="detail-number">08</span><span class="detail-name">회사소개 · 오시는길 · 견적 미반영</span><span class="detail-price">110,000원</span></summary>
+          <div class="detail-body">
+            <ul><li>회사소개 · 오시는길 페이지의 정보 UI를 간소화 작업.</li></ul>
+            <p class="detail-note"><strong>견적 미반영(청구 없음)</strong> 클라이언트 요청 외 자체 수정 사항입니다. 작업 내용은 표시하되 비용은 소계·총액에 반영하지 않습니다.</p>
+          </div>
         </details>
         <details id="page-academy">
-          <summary><span class="detail-number">08</span><span class="detail-name">(주)와이피피 아카데미 · 견적 미반영</span><span class="detail-price"><!-- <small>13–21시간</small> -->110,000원</span></summary>
+          <summary><span class="detail-number">09</span><span class="detail-name">(주)와이피피 아카데미 · 견적 미반영</span><span class="detail-price"><!-- <small>13–21시간</small> -->110,000원</span></summary>
           <p class="detail-note"><strong>견적 미반영(청구 없음)</strong> 클라이언트 요청 외 자체 수정 사항입니다. 표시 금액은 참고 단가이며, 소계·총액에 반영하지 않습니다.</p>
           <div class="detail-body"><ul><li>교육 소개 문구와 대표 이미지를 배치하도록 소개 영역을 변경합니다.</li><li>Relay School·PSAC 통계와 전체 수료 인원 강조 영역을 재구성합니다.</li><li>교육 비전을 핵심 가치 카드로 표현합니다.</li><li>교육 사진을 크게 보여주는 가로형 갤러리로 변경합니다.</li><li>교육 연혁을 간결한 목록으로, 교육 장점을 카드형으로 정리합니다.</li></ul><p class="detail-note"><strong>범위 구분</strong> 통계·문구·사진이 제공된다는 전제입니다. 공통 배너·섹션 제목·대표 이미지 영역 및 홈페이지의 아카데미 소개 카드는 이 항목에서 제외합니다. 신규 통계 또는 갤러리 관리 기능은 포함하지 않습니다.</p></div>
         </details>
@@ -434,7 +448,7 @@
       </div>
     </section>
   </main>
-  <footer><span>2026. 10. 20. 재산정 · VAT 포함 · 작업 범위 확인 후 확정</span></footer>
+  <footer><span>ⓒ OA DESIGN STUDIO</span></footer>
   <dialog class="image-viewer" id="image-viewer" aria-labelledby="viewer-title">
     <div class="viewer-header">
       <p class="viewer-title" id="viewer-title" aria-live="polite"></p>
